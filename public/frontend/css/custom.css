@@ -1,0 +1,321 @@
+body {
+	width: 576px;
+	margin: 40px auto;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navbar-expand-md .navbar-collapse.collapse:not(.show) {
+	display: none !important;
+}
+.navbar-expand-md .navbar-toggler {
+	display: block;
+}
+header {
+	padding: 20px 0;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+header .row {
+	align-items: center;
+}
+header .navbar {
+	padding: 0;
+	position: relative;
+	justify-content: center;
+}
+header .navbar .navbar-collapse {
+	position: absolute;
+	top: 40px;
+	width: 574px;
+	background: #fff;
+	z-index: 11;
+	left: 0;
+}
+header .navbar .navbar-nav {
+	margin: 0 !important;
+	width: 100%;
+	display: inline-block;
+}
+header .navbar .navbar-nav .nav-item a.nav-link {
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	padding: 10px 15px;
+	text-align: left;
+}
+.message-icon,
+.notification-icon {
+	display: table;
+	margin: 0 auto;
+	position: relative;
+}
+.message-icon::before,
+.notification-icon::before {
+	content: "";
+	background: #D10000;
+	height: 6px;
+	width: 6px;
+	display: inline-block;
+	border-radius: 5px;
+	right: -5px;
+	position: absolute;
+}
+.tabs-wrapper .nav-tabs-wrapper {
+	background: #008AB8;
+	text-align: center;
+	padding: 10px 0 15px;
+	position: relative;
+}
+.back {
+	position: absolute;
+	left: 20px;
+}
+.nav-tabs-wrapper .nav-tabs {
+	display: inline-block;
+	border: none;
+}
+.nav-tabs-wrapper .nav-tabs .nav-link {
+	display: inline-block;
+	border: none;
+	border-bottom: 2px solid transparent;
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	color: #fff;
+	padding: 0;
+	font-size: 12px;
+	margin: 0 20px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+.nav-tabs-wrapper .nav-tabs .nav-link.active {
+	border-color: #fff;
+}
+.carousel-item > img {
+	position: absolute;
+	left: 0;
+	width: 200px;
+}
+.carousel-item .carousel-caption {
+	color: #333;
+	position: relative;
+	text-align: left;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	padding: 10px 10px 10px 220px;
+}
+.carousel-item .carousel-caption h1 {
+	color: #008AB8;
+	font-size: 14px;
+	font-weight: 700;
+}
+.carousel-item .carousel-caption h3 {
+	font-size: 12px;
+	color: #000;
+	font-weight: 600;
+}
+.carousel-item .carousel-caption p {
+	font-size: 12px;
+	color: #000;
+	font-weight: 400;
+	display: flex;
+	margin: 0;
+}
+.carousel-item .carousel-caption p .session {
+	color: #888;
+	font-weight: 700;
+	flex: 1;
+}
+.carousel-item .carousel-caption p .price {
+	color: #D16800;
+	font-size: 14px;
+	font-weight: 700;
+}
+#service1,#service2,#se {
+	margin: 0 0 40px 0;
+}
+#myCarousel .carousel-indicators {
+	margin: 0;
+	bottom: -30px;
+	display: inline-block;
+	text-align: center;
+}
+.tabs-wrapper .tab-pane {
+	padding: 0 20px;
+}
+#myCarousel .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	background: #333;
+	flex: auto;
+	display: inline-block;
+	margin: 0;
+	text-indent: unset;
+	border: none;
+	border-radius: 30px;
+}
+.progress-section-left h5 {
+	color: #D16800;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 0;
+}
+.progress-section-left p {
+	margin: 0;
+	color: #888888;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+.progress-section-right {
+	display: flex;
+	text-align: center;
+}
+.progress-section-right p {
+	margin: 0;
+	font-size: 10px;
+	font-weight: 700;
+}
+.blue-text p {
+	color: #008AB8;
+}
+.grey-text p {
+	color: #888888;
+}
+.progress-section-right .progress-separate {
+	flex: 1;
+	height: 5px;
+	margin: 10px 0 0 0;
+}
+.blue-bar {
+	background: #9ECBDA;
+}
+.grey-bar {
+	background: #DDDDDD;
+}
+.deals-inner {
+	position: relative;
+	padding: 0 0 0 60px;
+	height: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.deals-inner img {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 45px;
+}
+.deals-inner h6 {
+	margin: 0;
+	color: #008AB8;
+	font-size: 12px;
+}
+.deals-inner p {
+	font-size: 10px;
+	color: #000;
+	margin: 0;
+}
+.deals-section {
+	margin: 20px 0 0 0;
+}
+.deals-inner-right h6 {
+	color: #000;
+}
+.main-wrapper {
+	border: 1px solid #ddd;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	margin: 30px 0px 0px 0px;
+}
+.check-in-section > p {
+	margin: 16px 0 20px 0;
+	color: #888888;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.check-in-section ul li {
+	color: #000;
+	font-size: 12px;
+	position: relative;
+	padding: 0 0 0 20px;
+	margin: 0 0 5px 0;
+	transition: 0.1s;
+}
+.check-in-section ul li:hover {
+	color: #008AB8;
+}
+.check-in-section ul li img {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 13px;
+}
+.check-in-buttons {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	margin: 20px 0;
+}
+.check-in-buttons a.btn {
+	background: #008AB8;
+	border: 1px solid #008AB8;
+	font-size: 12px;
+	width: 140px;
+	font-weight: 700;
+}
+.check-in-buttons a.generate-invoice-button {
+	background: none;
+	color: #008AB8;
+	margin: 0 20px 0 10px;
+}
+.check-in-buttons a.more {
+	color: #008AB8;
+	font-size: 10px;
+}
+.check-in-buttons a.more p {
+	margin: 0;
+}
+.notification-strip {
+	background: #008AB8;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 20px 90px 20px 40px;
+	position: relative;
+}
+.notification-strip p {
+	margin: 0;
+	color: #fff;
+	font-size: 12px;
+	border-left: 4px solid #fff;
+	padding: 0 0 0 20px;
+}
+#close {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
